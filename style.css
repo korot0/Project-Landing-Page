@@ -91,19 +91,19 @@ a {
     border-radius: 25px;
 }
 
-.text {
+.description {
     width: 150px;
     text-align: center;
     margin-top: 10px;
 }
 
-button {
+.buttontop {
     background-color: #3882f6;
     border-radius: 5px;
     border: none;
     text-decoration: none;
     color: white;
-    padding: 10px 25px;
+    padding: 5px 25px;
 }
 
 .bottom {
@@ -117,17 +117,41 @@ button {
 .quote {
     font-size: 36px;
     color: #1f2937;
+    padding: 0px 30px;
     font-style: italic;
-
 }
 
 .thor {
     font-weight: bold;
     align-self: flex-end;
-    margin-right: 30px;
+    margin-right: 150px;
     margin-top: 20px;
 }
 
 .bottom {
-    padding: 20px;
+    padding: 25px;
+}
+
+.action {
+    display: flex;
+    padding: 25px;
+    margin: 80px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+}
+
+.buttonbot {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    padding: 5px 25px;
+}
+
+.call {
+    font-size: 24px;
 }
