@@ -36,10 +36,16 @@ a {
 .top {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
     padding: 12px 25px;
     gap: 10px;
     background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .booth {
@@ -51,6 +57,7 @@ a {
     font-size: 48px;
     font-weight: 800;
     color: #f9faf8;
+
 }
 
 .subtext {
@@ -79,5 +86,15 @@ a {
 .item {
     width: 100px;
     height: 100px;
-    border: 2px solid black;
+    border: 2px solid #3882f6;
+    border-radius: 25px;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
 }
