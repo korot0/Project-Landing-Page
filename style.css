@@ -109,18 +109,23 @@ button {
 .bottom {
     display: flex;
     flex-direction: column;
+    place-content: center;
     background-color: #e5e7eb;
-    height: 250px;
+    height: 300px;
 }
 
 .quote {
     font-size: 36px;
     color: #1f2937;
-    font-style: italic
+    font-style: italic;
+
 }
 
 .thor {
     font-weight: bold;
+    align-self: flex-end;
+    margin-right: 30px;
+    margin-top: 20px;
 }
 
 .bottom {
