@@ -81,6 +81,7 @@ a {
 .items {
     display: flex;
     gap: 20px;
+    padding-bottom: 30px;
 }
 
 .item {
@@ -103,4 +104,25 @@ button {
     text-decoration: none;
     color: white;
     padding: 10px 25px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    height: 250px;
+}
+
+.quote {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic
+}
+
+.thor {
+    font-weight: bold;
+}
+
+.bottom {
+    padding: 20px;
 }
