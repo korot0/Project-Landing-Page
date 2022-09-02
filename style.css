@@ -95,7 +95,6 @@ a {
     width: 150px;
     text-align: center;
     margin-top: 10px;
-    border: 2px solid black;
 }
 
 .buttontop {
@@ -114,6 +113,7 @@ a {
     background-color: #e5e7eb;
     height: 300px;
 }
+
 
 .quote {
     font-size: 36px;
