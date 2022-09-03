@@ -17,7 +17,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #0e0606;
+    background-color: black;
 }
 
 .menu {
@@ -45,7 +45,7 @@ a {
 .header-container {
     display: flex;
     justify-content: center;
-    background-color: #0e0606;
+    background-color: black;
 }
 
 .header {
@@ -166,7 +166,7 @@ iframe:hover {
 .action-container {
     display: flex;
     justify-content: center;
-    background-color: #0e0606;
+    background-color: black;
 }
 
 .action {
@@ -178,7 +178,7 @@ iframe:hover {
 
 /* make sure to align button with with subtext */
 .buttonbot {
-    background-color: #0e0606;
+    background-color: black;
     border-radius: 5px;
     border: 2px solid white;
     text-decoration: none;
@@ -194,7 +194,13 @@ iframe:hover {
 .footer {
     padding: 30px 0px;
     display: flex;
-    place-content: center;
-    background-color: #0e0606;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
     font-size: 18px;
+}
+
+.nurse {
+    width: 100px;
+    height: auto;
 }
