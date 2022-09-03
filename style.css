@@ -6,6 +6,31 @@
     color: white;
 }
 
+/* ALL ------------------------------------------------------*/
+
+.menu-container,
+.header-container,
+.moments-container,
+.quote-container,
+.action-container,
+footer,
+span {
+    text-shadow: 5px 5px 10px darkred;
+}
+
+.choice, .buttonbot {
+    background-color: transparent;
+    border: 2px solid #0f137a;
+    padding: 5px 25px;
+}
+
+.choice:hover, .buttonbot:hover {
+    background-color: #0f137a;
+}
+
+
+/* ALL ------------------------------------------------------*/
+
 /* MENU -----------------------------------------------------*/
 
 .logo {
@@ -18,6 +43,7 @@
     justify-content: center;
     align-items: center;
     background-color: black;
+    padding: 30px;
 }
 
 .menu {
@@ -46,13 +72,18 @@ a {
     display: flex;
     justify-content: center;
     background-color: black;
+    padding: 30px;
 }
 
 .header {
     width: 850px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+}
+
+.left {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
 }
 
 .title {
@@ -74,17 +105,7 @@ a {
 
 .subtext {
     font-size: 18px;
-    color: #e5e7eb;
-}
-
-.choice {
-    background-color: transparent;
-    border: 2px solid #0f137a;
-    padding: 5px 25px;
-}
-
-.choice:hover {
-    background-color: #0f137a;
+    color: white;
 }
 
 /* HEADER ---------------------------------------------------*/
@@ -95,6 +116,7 @@ a {
     display: flex;
     justify-content: center;
     background: url(images/hole.jpg)repeat fixed 80%;
+    padding: 80px 0px 100px;
 }
 
 .moments {
@@ -113,6 +135,7 @@ a {
 .moments-header {
     font-weight: 800;
     font-size: 36px;
+    margin-bottom: 50px;
 }
 
 .items {
@@ -139,8 +162,9 @@ iframe:hover {
 
 .quote-container {
     display: flex;
-    background: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/silent-hill-2/7/7a/Mary_letter.bmp")repeat fixed 50%;
+    background: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/silent-hill-2/7/7a/Mary_letter.bmp")repeat fixed 70%;
     justify-content: center;
+    padding: 120px;
 }
 
 .quote-child {
@@ -167,6 +191,8 @@ iframe:hover {
     display: flex;
     justify-content: center;
     background-color: black;
+    padding: 30px;
+    background: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/silent-hill-2/7/7a/Mary_letter.bmp")repeat fixed 70%;
 }
 
 .action {
@@ -174,15 +200,6 @@ iframe:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-/* make sure to align button with with subtext */
-.buttonbot {
-    background-color: black;
-    border-radius: 5px;
-    border: 2px solid white;
-    text-decoration: none;
-    padding: 5px 25px;
 }
 
 .call {
